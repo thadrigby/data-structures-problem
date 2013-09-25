@@ -7,7 +7,7 @@ Start of the Data Structures toy problem
 
 Your up-and-coming website, Chat-tastic, is set to bring back the chatrooms like no one's ever seen. We're talking 1999, baby.
 
-There is a "server" component to your website that handles all of the users coming and going. Every so often, a new user will join the website and the server will call a function in the global scope called `new_user_joined`. The server will also call a function in the global scope called `assign_to_chatroom` which will give you the ability to proportion users where they need to go.
+There is a "server" component to your website that handles all of the users coming and going. Every so often, a new user will join the website and the server will call a function in the global scope called `new_user_joined`. Periodically, the server will also call a function in the global scope called `assign_to_chatroom` which will give you the ability to proportion users where they need to go.
 
 Your job is to assign the users to chatrooms based on their order of appearance (first come first served). You should also try to keep the chatrooms equally full.
 
