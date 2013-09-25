@@ -30,3 +30,8 @@ Every five seconds the server will call the function `assign_to_chatroom` and yo
 * To keep both containers equally full, you could:
   * Create a variable that tells you which container you're going to use next, then when you've used it, point the variable to the other container
   * Create a boolean variable that when true, indicates using one container and when false, indicates you should use the other. Change the boolean every time a student is assigned.
+
+###3. (Black Diamond) Make sure there are no repeats of users in a room
+
+**Hints**
+* See the `chatrooms` variable? What data struture does that look like? How could you use it to make sure there are no repeated users?
