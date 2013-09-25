@@ -18,6 +18,7 @@ Your job is to assign the users to chatrooms based on their order of appearance 
 Because you don't know when new users will be coming, you need to capture all of them so that when the assign_to_chatroom function is called, you're ready to assign them to an appropriate room.
 
 **Hints**
+* Open up the page in your brower and look at the console. The logs coming through should give you an indication of when different methods are being called.
 * The `users_joined` array is already provided for you as a start
 * Which data structure uses the "first come first served" policy? What are that data structure's methods?
 * Use the `new_user_joined` function when you're adding users to your data structure
